@@ -1,0 +1,77 @@
+/* Full sized backgroung image */
+html {
+  background: url(winter1.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+/* Centering items etc */
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+h1 {
+  text-shadow: 2px 2px red;
+}
+h2 {
+  text-shadow: 2px 2px red;
+}
+/* Modifying the To Do app visual output */
+.theList {
+  color: #333;
+  background-color: aliceblue;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.TODO {
+  background-color: antiquewhite;
+  padding: 15px;
+  border-style: dotted;
+}
+.area {
+  background-color: red;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.back-button {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+.rearrange-button {
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+.search-button {
+  margin-bottom: 40px;
+}
+.search-box {
+  margin-top: 100px;
+}
+.task-box {
+  padding: 90px;
+}
